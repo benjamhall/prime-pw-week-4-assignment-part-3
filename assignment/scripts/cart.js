@@ -11,4 +11,11 @@ function addItem(item){
   }
 }
 
-function listItems
+function listItems(){
+  console.log('listItems');
+  let count = 0;
+  while(count<basket.length){
+    console.log(basket[count]);
+    count ++;
+  }
+}
