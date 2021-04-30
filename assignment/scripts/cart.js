@@ -23,13 +23,21 @@ function listItems(){
   }
 }
 
-function empty(item){
-  console.log('empty');
-  basket.pop(item);
-    console.log('item has been removed');
-    return true;
+function empty(){
+  basket=[];
 }
+//   //console.log('empty');
+//   //for(let fruit of basket){
+//     //console.log(fruit);
+//       basket.pop();
+//   }
+//     console.log('item has been removed');
+//     return true;
+
 
 addItem('Apples');
+addItem('Grapes');
+addItem('Oranges');
 listItems();
 empty();
+console.log(basket);
